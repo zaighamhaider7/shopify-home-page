@@ -1,0 +1,154 @@
+body{
+       background-color:skyblue;
+       margin: 0%;
+       padding: 0%;
+       box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-right: 20px; */
+    height: 4.8em;
+    padding: 0% 2%;
+}
+#navbarlogo{
+    display: flex;
+    align-items: center;
+}
+#navbarlogo{
+    display: flex;
+    align-items: center;
+}
+#logoname{
+   font-size: 1.5vmax;
+   cursor: default;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 1.5vmax;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.freetrail{
+    height: 3em;
+    width: 8.8em;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    transition: 1.5s;
+    font-weight: bold;
+    border: none;
+    margin-right: 0.5em;
+}
+.freetrail:hover{
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border: none;
+    cursor: pointer;
+}
+#modes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    width: 70px;
+    box-shadow: 0px 0px 2px 2px rgba(128, 128, 128, 0.61);
+    border-radius: 45px;
+    background-color: white;
+}
+#secondnav{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    height: 3em;
+    cursor: default;
+}
+#secondnav h3{
+    margin-right: 2em;
+}
+#hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.7em;
+}
+#description{
+   cursor: default;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   align-items: left;
+}
+#text1{
+    font-size: 2rem;
+    margin: 1%;
+}
+#text2{
+    font-size: 3rem;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#text3{
+    font-size: 1.2rem;
+    padding-left: 4px;
+    letter-spacing: 1px;
+}
+#emailaddress{
+    width: 40em;
+    height: 3.5em;
+    border-radius: 45px;
+    border: none;
+    position: absolute;
+}
+::placeholder{
+    padding-left: 8px;
+    font-size: 1rem;
+}
+#secndfreetrail{
+    height: 3em;
+    width: 12em;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    transition: 1.5s;
+    font-weight: bolder;
+    border: none;
+    position: relative;
+    margin-left: 28em;
+    margin-top: 0.3em;
+}
+#text4{
+    font-size: 1.2rem;
+}
+#seconddescription{
+    display: flex;
+}
+#firstimg{
+    height: 22em;
+    width: 18em;
+    border-radius: 12px;
+    position: absolute;
+    background-image: url(./home\ shopify2.png);
+    background-size: cover;
+}
+#secondimg{
+    position:relative;
+    height: 21em;
+    width: 14em;
+    border-radius: 12px;
+    background-image: url(./home\ shopify.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 16.5em;
+    margin-top: 3em;
+}
